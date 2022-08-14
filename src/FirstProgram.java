@@ -1,5 +1,13 @@
+import java.time.LocalDate;
+
 public class FirstProgram {
+    static void infoDate(String hello) {
+        String txtDate = "Today's date: ";
+        LocalDate date = LocalDate.now();
+        System.out.println(hello + txtDate + date);
+    }
     public static void main (String...args) {
-        System.out.println("hello");
+        String txtHello = "Hello, World. ";
+        infoDate(txtHello);
     }
 }
