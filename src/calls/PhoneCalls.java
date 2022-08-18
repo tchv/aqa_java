@@ -10,16 +10,8 @@ import java.util.Scanner;
  */
 
 public class PhoneCalls {
-    public static float tariff1(float c1, float t1) {
-        return c1 * t1;
-    }
-
-    public static float tariff2(float c2, float t2) {
-        return c2 * t2;
-    }
-
-    public static float tariff3(float c3, float t3) {
-        return c3 * t3;
+    public static double tariff(double a, double b) {
+        return a * b;
     }
 
     public static void main(String...args) {
@@ -27,9 +19,9 @@ public class PhoneCalls {
 
         System.out.println("-<*>- Phone calls from three different countries -<*>-");
 
-        float c1 = (float) 0.5;
-        float c2 = (float) 1.5;
-        float c3 = (float) 2.5;
+        double c1 = 0.5;
+        double c2 = 1.5;
+        double c3 = 2.5;
 
         String callRates = "\nTariffs:; \tPoland - $" + c1 + " per minute; \tGreece - $" + c2 + " per minute; \tCanada - $" + c3 + " per minute";
 
@@ -39,23 +31,23 @@ public class PhoneCalls {
         }
 
         System.out.println("\nPlease enter the minutes spent on the call to Poland and then press Return:");
-        float t1 = sc.nextFloat();
+        double t1 = sc.nextDouble();
         System.out.println(">>> " + t1 + " min.");
 
         System.out.println("\nPlease enter the minutes spent on the call to Greece and then press Return:");
-        float t2 = sc.nextFloat();
+        double t2 = sc.nextDouble();
         System.out.println(">>> " + t2 + " min.");
 
         System.out.println("\nPlease enter the minutes spent on the call to Canada and then press Return:");
-        float t3 = sc.nextFloat();
+        double t3 = sc.nextDouble();
         System.out.println(">>> " + t3 + " min.");
 
         System.out.println("\nResult:");
-        System.out.println("You spent on a call to Poland: $" + tariff1(c1, t1));
-        System.out.println("You spent on a call to Greece: $" + tariff2(c2, t2));
-        System.out.println("You spent on a call to Canada: $" + tariff3(c3, t3));
+        System.out.println("You spent on a call to Poland: $" + tariff(c1, t1));
+        System.out.println("You spent on a call to Greece: $" + tariff(c2, t2));
+        System.out.println("You spent on a call to Canada: $" + tariff(c3, t3));
 
-        float total = tariff1(c1, t1) + tariff2(c2, t2) + tariff3(c3, t3);
+        double total = tariff(c1, t1) + tariff(c2, t2) + tariff(c3, t3);
         System.out.println("\n\t Total amount of expenses: $" + total);
     }
 }
