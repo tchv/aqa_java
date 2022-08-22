@@ -1,4 +1,4 @@
-package calls;
+package hw1.calls;
 
 import java.util.Scanner;
 

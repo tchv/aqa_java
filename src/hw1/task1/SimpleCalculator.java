@@ -1,4 +1,4 @@
-package calc;
+package hw1.calc;
 
 import java.util.Scanner;
 
