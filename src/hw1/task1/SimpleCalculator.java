@@ -1,4 +1,4 @@
-package hw1.calc;
+package hw1.task1;
 
 import java.util.Scanner;
 
