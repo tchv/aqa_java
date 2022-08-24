@@ -1,4 +1,4 @@
-package hw0;
+package other.first;
 
 import java.time.LocalDate;
 
