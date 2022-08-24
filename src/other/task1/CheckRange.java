@@ -1,4 +1,4 @@
-package hw2.task1;
+package other.task1;
 
 import java.util.Scanner;
 
