@@ -95,15 +95,15 @@ In the method main() create 5 objects of Person type and input information about
 
 ###### Task
 
-Develop abstract class Bird with attributes feathers and layEggs and an abstarct method fly().
+Develop abstract class **Bird** with attributes **feathers** and **layEggs** and an abstarct method ***fly()***.
 
-Develop classes FlyingBird and NonFlyingBird.
+Develop classes ***FlyingBird*** and ***NonFlyingBird***.
 
-Create class Eagle, Swallow, Penguin and Chicken.
+Create class **Eagle**, **Swallow**, **Penguin** and **Chicken**.
 
-Create array Bird and add different birds to it.
+Create array **Bird** and add different birds to it.
 
-Call fly() method for all of it. 
+Call ***fly()*** method for all of it. 
 
 Output the information about each type of created bird.
 
