@@ -1,15 +1,25 @@
 package hw3;
 
-public class NonFlyingBird extends Bird {
-    protected String protectMethod() {
-        return super.protectMethod();
+class NonFlyingBird extends Bird {
+
+    NonFlyingBird() {
     }
 
-    public static void main(String[] args) {
-        NonFlyingBird nfb = new NonFlyingBird();
-        Bird[] b = {nfb};
-        for (Bird element: b) {
-            System.out.println(element.publicMethod());
-        }
+    NonFlyingBird(String feathers, String layEggs) {
+        setFeathers(feathers);
+        setLayEggs(layEggs);
+    }
+
+    public void setFeathers(String feathers) {
+        this.feathers = feathers;
+    }
+
+    public void setLayEggs(String layEggs) {
+        this.layEggs = layEggs;
+    }
+
+    @Override
+    void fly() {
+        System.out.println(">>> Comment: [Can not fly]");
     }
 }
