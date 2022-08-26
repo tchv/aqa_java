@@ -3,7 +3,13 @@
 
 ### Homework 1
 
-`hw1/task1/SimpleCalculator` `hw1/task2/PhoneCalls`
+***
+
+###### Structure:
+
+`hw1/task1/SimpleCalculator`
+
+`hw1/task2/PhoneCalls`
 
 ***
 
@@ -23,6 +29,8 @@ Read values a and b from Console and calculate:
 
 Output obtained results.
 
+***
+
 ###### Result:
 > [Simple console calculator](https://github.com/tchv/aqa_java/blob/main/src/hw1/task1/SimpleCalculator.java)
 
@@ -30,12 +38,20 @@ Output obtained results.
 
 Phone calls from three different countries are с1, с2 and с3 standard units per minute. Talks continued t1, t2 and t3 minutes. How much computer will count for each call separately and all talk together? Input all source data from console, make calculations and output to the screen.
 
+***
+
 ###### Result:
 > [Phone calls calculator](https://github.com/tchv/aqa_java/blob/main/src/hw1/task2/PhoneCalls.java)
 
 ### Homework 2
 
-`hw2/task1/Main` `hw2/task2/Person`
+***
+
+###### Structure:
+
+`hw2/task1/Main`
+
+`hw2/task2/Person`
 
 ***
 
@@ -58,6 +74,58 @@ Class Person should consists of
 
 In the method main() create 5 objects of Person type and input information about them.
 
+***
+
 ###### Result:
-> [Main](https://github.com/tchv/aqa_java/blob/main/src/hw2/task1/Main.java) &
+> [Main](https://github.com/tchv/aqa_java/blob/main/src/hw2/task1/Main.java) |
 > [Person](https://github.com/tchv/aqa_java/blob/main/src/hw2/task2/Person.java)
+
+### Homework 3
+
+***
+
+###### Structure:
+
+`hw3/Bird`
+
+`hw3/Chicken`
+
+`hw3/Eagle`
+
+`hw3/FlyingBird`
+
+`hw3/Main`
+
+`hw3/NonFlyingBird`
+
+`hw3/Penguin`
+
+`hw3/Swallow`
+
+***
+
+###### Task
+
+Develop abstract class Bird with attributes feathers and layEggs and an abstarct method fly().
+
+Develop classes FlyingBird and NonFlyingBird.
+
+Create class Eagle, Swallow, Penguin and Chicken.
+
+Create array Bird and add different birds to it.
+
+Call fly() method for all of it. 
+
+Output the information about each type of created bird.
+
+***
+
+###### Result:
+> [Bird](https://github.com/tchv/aqa_java/blob/main/src/hw3/Bird.java) |
+> [Chicken](https://github.com/tchv/aqa_java/blob/main/src/hw3/Chicken.java) |
+> [Eagle](https://github.com/tchv/aqa_java/blob/main/src/hw3/Eagle.java) |
+> [FlyingBird](https://github.com/tchv/aqa_java/blob/main/src/hw3/FlyingBird.java) |
+> [Main](https://github.com/tchv/aqa_java/blob/main/src/hw3/Main.java) |
+> [NonFlyingBird](https://github.com/tchv/aqa_java/blob/main/src/hw3/NonFlyingBird.java) |
+> [Penguin](https://github.com/tchv/aqa_java/blob/main/src/hw3/Penguin.java) |
+> [Swallow](https://github.com/tchv/aqa_java/blob/main/src/hw3/Swallow.java)
