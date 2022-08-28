@@ -1,0 +1,29 @@
+{
+  "name": "Test file",
+  "people": [
+    {
+      "name": "John Doe",
+      "age": 12
+    },
+    {
+      "name": "James Bond",
+      "age": 20
+    },
+    {
+      "name": "Iron Man",
+      "age": 42
+    },
+    {
+      "name": "Harry Potter",
+      "age": 19
+    },
+    {
+      "name": "Sherlock Holmes",
+      "age": 50
+    },
+    {
+      "name": "Tony Soprano",
+      "age": 47
+    }
+  ]
+}
