@@ -1,16 +1,9 @@
 # Course TAQC Java
-##### Quality Control | Java | Test Automation Concept
+##### `Quality Control` `Java` `Test Automation Concept`
 
 ***
 
 ### Homework 1
-
-
-###### Structure:
-
-`hw1/task1/SimpleCalculator`
-
-`hw1/task2/PhoneCalls`
 
 ###### Task 1
 
@@ -29,24 +22,18 @@ Read values a and b from Console and calculate:
 Output obtained results.
 
 ###### Result:
-> [Simple console calculator](https://github.com/tchv/aqa_java/blob/main/src/hw1/task1/SimpleCalculator.java)
+> [Simple console calculator](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw1/task1/SimpleCalculator.java)
 
 ###### Task 2
 
 Phone calls from three different countries are с1, с2 and с3 standard units per minute. Talks continued t1, t2 and t3 minutes. How much computer will count for each call separately and all talk together? Input all source data from console, make calculations and output to the screen.
 
 ###### Result:
-> [Phone calls calculator](https://github.com/tchv/aqa_java/blob/main/src/hw1/task2/PhoneCalls.java)
+> [Phone calls calculator](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw1/task2/PhoneCalls.java)
 
 ***
 
 ### Homework 2
-
-###### Structure:
-
-`hw2/task1/Main`
-
-`hw2/task2/Person`
 
 ###### Tasks 1 & 2
 
@@ -68,30 +55,12 @@ Class Person should consists of
 In the method main() create 5 objects of Person type and input information about them.
 
 ###### Result:
-> [Main](https://github.com/tchv/aqa_java/blob/main/src/hw2/task1/Main.java) |
-> [Person](https://github.com/tchv/aqa_java/blob/main/src/hw2/task2/Person.java)
+> [Main](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw2/task1/Main.java) |
+> [Person](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw2/task2/Person.java)
 
 ***
 
 ### Homework 3
-
-###### Structure:
-
-`hw3/Bird`
-
-`hw3/Chicken`
-
-`hw3/Eagle`
-
-`hw3/FlyingBird`
-
-`hw3/Main`
-
-`hw3/NonFlyingBird`
-
-`hw3/Penguin`
-
-`hw3/Swallow`
 
 ###### Task
 
@@ -108,11 +77,33 @@ Call ***fly()*** method for all of it.
 Output the information about each type of created bird.
 
 ###### Result:
-> [Bird](https://github.com/tchv/aqa_java/blob/main/src/hw3/Bird.java) |
-> [Chicken](https://github.com/tchv/aqa_java/blob/main/src/hw3/Chicken.java) |
-> [Eagle](https://github.com/tchv/aqa_java/blob/main/src/hw3/Eagle.java) |
-> [FlyingBird](https://github.com/tchv/aqa_java/blob/main/src/hw3/FlyingBird.java) |
-> [Main](https://github.com/tchv/aqa_java/blob/main/src/hw3/Main.java) |
-> [NonFlyingBird](https://github.com/tchv/aqa_java/blob/main/src/hw3/NonFlyingBird.java) |
-> [Penguin](https://github.com/tchv/aqa_java/blob/main/src/hw3/Penguin.java) |
-> [Swallow](https://github.com/tchv/aqa_java/blob/main/src/hw3/Swallow.java)
+> [Bird](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw3/task1/Bird.java) |
+> [Chicken](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw3/task1/Chicken.java) |
+> [Eagle](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw3/task1/Eagle.java) |
+> [FlyingBird](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw3/task1/FlyingBird.java) |
+> [Main](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw3/task1/Main.java) |
+> [NonFlyingBird](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw3/task1/NonFlyingBird.java) |
+> [Penguin](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw3/task1/Penguin.java) |
+> [Swallow](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw3/task1/Swallow.java)
+
+***
+
+### Homework 4
+
+###### Task 1
+
+Make a project on Gradle and make a simple test in it.
+
+###### Result:
+> [Class](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task1/Class1.java) |
+> [Test](https://github.com/tchv/aqa_java/blob/main/src/test/java/app/hw4/task1/Class1Test.java)
+
+###### Task 2
+
+Create a json parser using Jackson or Gson.
+
+###### Result:
+> [Gson Parser](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/GsonParser.java) |
+> [Main](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/Main.java) |
+> [People](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/People.java) |
+> [Root](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/Root.java)
