@@ -106,4 +106,5 @@ Create a json parser using Jackson or Gson.
 > [Gson Parser](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/GsonParser.java) |
 > [Main](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/Main.java) |
 > [People](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/People.java) |
-> [Root](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/Root.java)
+> [Root](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/Root.java) |
+> [Json File](https://github.com/tchv/aqa_java/blob/main/src/main/java/app/hw4/task2/test.json)
