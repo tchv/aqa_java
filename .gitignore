@@ -59,6 +59,7 @@ out/
 **/gradle-app.setting
 **/gradlew
 **/gradlew.bat
+**/settings.gradle
 
 ##############################
 ## Eclipse
