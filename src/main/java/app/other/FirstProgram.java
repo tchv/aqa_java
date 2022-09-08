@@ -1,4 +1,4 @@
-package app.other.first;
+package app.other;
 
 import java.time.LocalDate;
 

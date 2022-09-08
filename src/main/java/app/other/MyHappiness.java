@@ -1,4 +1,4 @@
-package app.other.first;
+package app.other;
 
 public class MyHappiness {
     public static void main(String[] args) {
