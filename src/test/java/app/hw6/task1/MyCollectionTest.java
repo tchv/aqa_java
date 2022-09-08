@@ -1,18 +1,17 @@
 package app.hw6.task1;
 
 import org.junit.jupiter.api.Test;
-import java.util.*;
+
+import static app.hw6.task1.MyCollection.fillRandom;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class MyCollectionTest {
+    MyCollection testMyCollection = new MyCollection();
     @Test
-    public void myCollectionTest1() {
-        ArrayList<Integer> list = new ArrayList<Integer>();
-        Random random = new Random();
-        for (int i = 0; i < 10; i++) {
-            Integer num = random.nextInt() % 25;
-            list.add(num);
-        }
-        assertEquals(11, list.size(), "Error");
+    public void testMyCollectionSize() {
+        testMyCollection.setArray(fillRandom(10, 25));
+        assertEquals(10, testMyCollection.getArray().size(), "[ Positive test ] Error");
+        assertNotEquals(11, testMyCollection.getArray().size(), "[ Negative test ] Error");
     }
 }
